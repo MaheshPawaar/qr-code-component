@@ -28,7 +28,7 @@ body {
 }
 
 .card {
-    width: 332px;
+    max-width: 332px;
     background-color: var(--BGCOLOR);
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@ body {
 
 img {
     display: block;
-    width: 300px;
+    max-width: 90%;
     margin: 1rem;
     border-radius: 10px;
 }
