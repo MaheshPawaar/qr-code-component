@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* COLORS */
+    --BGCOLOR: hsl(0, 0%, 100%);
+    --BODY-BGCOLOR: hsl(212, 45%, 89%);
+    --GRAYISH-BLUE: hsl(220, 15%, 55%);
+    --DARK-BLUE: hsl(218, 44%, 22%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+    background-color: var(--BODY-BGCOLOR);
+    box-shadow: 0px 20px 20px -5px rgba(0, 0, 0, 0.101);
+}
+
+.card {
+    width: 332px;
+    background-color: var(--BGCOLOR);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+img {
+    display: block;
+    width: 300px;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: var(--GRAYISH-BLUE);
+    text-align: center;
+    margin: 0 1rem 1rem 1rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 0.25rem;
+}
+.attribution a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
